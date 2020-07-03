@@ -15,11 +15,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        button.cornerRadius = button.bounds.width / 2
-    }
-    
     @IBOutlet private weak var button: RoundedButton!
     
     @IBAction private func buttonTapped() {

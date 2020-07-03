@@ -9,14 +9,18 @@
 import UIKit
 
 class RoundedButton: UIButton {
-    var cornerRadius: CGFloat = 0 {
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        cornerRadius = bounds.width / 2
+    }
+    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+        path.contains(point)
+    }
+    private var cornerRadius: CGFloat = 0 {
         didSet {
             layer.cornerRadius = cornerRadius
             path = UIBezierPath(roundedRect: bounds, cornerRadius: cornerRadius)
         }
-    }
-    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
-        path.contains(point)
     }
     private lazy var path = UIBezierPath(roundedRect: bounds, cornerRadius: cornerRadius)
 }
