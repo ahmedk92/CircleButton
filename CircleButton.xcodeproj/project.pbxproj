@@ -14,6 +14,7 @@
 		2822D70824AF880F001C2472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2822D70724AF880F001C2472 /* Assets.xcassets */; };
 		2822D70B24AF880F001C2472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2822D70924AF880F001C2472 /* LaunchScreen.storyboard */; };
 		2822D71624AF880F001C2472 /* CircleButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2822D71524AF880F001C2472 /* CircleButtonTests.swift */; };
+		2822D72124AF881B001C2472 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2822D72024AF881B001C2472 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		2822D71124AF880F001C2472 /* CircleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2822D71524AF880F001C2472 /* CircleButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonTests.swift; sourceTree = "<group>"; };
 		2822D71724AF880F001C2472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2822D72024AF881B001C2472 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +81,14 @@
 		2822D6FD24AF880C001C2472 /* CircleButton */ = {
 			isa = PBXGroup;
 			children = (
+				2822D70C24AF880F001C2472 /* Info.plist */,
 				2822D6FE24AF880C001C2472 /* AppDelegate.swift */,
+				2822D72024AF881B001C2472 /* CircleButton.swift */,
 				2822D70024AF880C001C2472 /* SceneDelegate.swift */,
 				2822D70224AF880C001C2472 /* ViewController.swift */,
-				2822D70424AF880C001C2472 /* Main.storyboard */,
 				2822D70724AF880F001C2472 /* Assets.xcassets */,
 				2822D70924AF880F001C2472 /* LaunchScreen.storyboard */,
-				2822D70C24AF880F001C2472 /* Info.plist */,
+				2822D70424AF880C001C2472 /* Main.storyboard */,
 			);
 			path = CircleButton;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				2822D70324AF880C001C2472 /* ViewController.swift in Sources */,
 				2822D6FF24AF880C001C2472 /* AppDelegate.swift in Sources */,
 				2822D70124AF880C001C2472 /* SceneDelegate.swift in Sources */,
+				2822D72124AF881B001C2472 /* CircleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
