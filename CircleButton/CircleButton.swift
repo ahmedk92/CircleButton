@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 class RoundedButton: UIButton {
     override func layoutSubviews() {
         super.layoutSubviews()
